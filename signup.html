@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="style" -->
+
+    <style>
+        #sign {
+
+            width : 50%;
+            border: 1px solid red;
+            margin: auto;
+        }
+        #division{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #norm{
+            width: 90%;
+            border: 1px solid red;
+            margin-left: 20px;
+        }
+        #facebook{
+            display: flex;
+            /* justify-content: space-evenly; */
+            border: 1px solid blue;
+            width : 90%;
+            margin-left: 20px;
+        }
+        #logo{
+            margin-right: 600px;
+            border: 1px solid red;
+            width: 10%;
+        }
+        #logo>img{
+            width : 60%;
+            margin-top: 10px;
+        } 
+        #rb{
+            margin-left: -500px;
+            border: 1px solid greenyellow;
+        }
+        #rb > p{
+            font-size: 16px;   
+        }
+        #google{
+            width : 90%;
+            display: flex;
+            margin-left: 20px;
+            background-color: #087cdd;
+            color: white;
+        }
+        #or{
+            margin-left: 280px;
+            margin-top: -14px;
+   
+        }
+        #log{
+            width : 6%;
+            margin-left: 10px;
+        }
+        #log > img{
+            width : 100%;
+            margin-top: 10px;
+            border-radius: 5px;
+            margin-bottom: 7px;
+        }
+        #rg{
+            margin-left: 110px;
+        }   
+
+        #forming {
+            /* border: 1px solid green; */
+            width: 90%;
+            margin-left: 20px;
+        }
+        form{
+            width: 70%;
+            /* padding: 10px; */
+        }
+        input{
+            padding: 10px;
+            margin-top: 14px;
+            border: none; 
+            border-bottom: 1px solid gray;
+            font-size: 16px;
+        }
+        #mail{
+            width : 137%;
+        }#name{
+            width: 137%;
+        }
+        #lName{
+            width : 137%;
+        }
+         /* #mobile{
+            width : 55%; 
+        } */
+        #password{
+            width: 137%;
+        }
+        button{
+            width : 132%;
+            padding: 10px;
+            margin: auto;
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 38px;
+            background-color: white;
+            border: 1px solid #DF1E2E;
+            color: #DF1E2E;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        button:hover{
+            background-color:rgb(245, 224, 224);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div id="sign">
+        <div id="division">
+            <div>STUDENT</div>
+            <div>COMPANY</div>
+        </div>
+        <h2>Register Candidate</h2>
+        <p>Already Have an account?<span>Sign In</span></p>
+        <div id="norm">
+            <p>If you are a company looking to hire interns, please register as a company by clicking<span> here</span></p>
+        </div>
+        <div id="facebook">
+            <div id="logo">
+                <img src="https://www.interntheory.com/assets/iconsLogos/facebook-circular-logo.svg",alt=""/>
+            </div>
+            <div id="rb">
+                <p>REGISTER WITH FACEBOOK</p>
+            </div>
+        </div>
+        <div id="google">
+            <div id="log">
+                <img src="https://img2.cgtrader.com/items/2590278/0572f24550/large/google-logo-v1-002-3d-model-low-poly-max-obj-3ds-fbx-ma-stl.jpg", alt=""/>
+            </div>
+            <div id="rg">
+                <p>REGISTER WITH GOOGLE</p>
+            </div>
+        </div>
+        <div id="or">
+            <p>OR</p>
+        </div>
+        <div id="forming">
+            <form>
+                <input id="name" placeholder="First Name*" type="text">
+                <input id="lName" placeholder="Last Name*" type="text">
+                <input id="mail" placeholder="Email*" type="text">
+                <input id="password" placeholder="Password*" type="password">
+                <!-- <input id="mobile" placeholder="Mobile Number" type="text"> -->
+                <button id="next">NEXT</button>
+            </form>
+        </div>
+      
+    </div>
+</body>
+</html>
+<script src="./signup.js"></script>
