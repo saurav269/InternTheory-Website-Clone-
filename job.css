@@ -1,0 +1,87 @@
+
+    #main {
+      display: flex;
+      width: 80%;
+      margin: auto;
+      /* border: 1px solid red; */
+    }
+    #img > img {
+      /* border: 1px solid pink; */
+      width: 85%;
+      margin-top: 20px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #content{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    #content {
+      margin-top: 20px;
+      margin-right: 20px;
+      width: 200%;
+      height: auto;
+      /* border: 1px solid green; */
+      align-items: flex-start;
+      /* justify-content: start; */
+    }
+    #content>h3{
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 25px;
+       
+        
+    }
+    #content > #box > #two {
+      display: flex;
+      width: 100%;
+      /* border: 1px solid rebeccapurple; */
+    }
+    #content > #box > #two > img {
+      margin-top: 40px;
+      /* border: 1px solid aqua; */
+      width: 100px;
+      height: 90px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    #content > #box > #two > #t {
+      /* border: 1px solid lightcoral; */
+      margin-left: 250px;
+    }
+    #t {
+      margin: auto;
+    }
+    #content > #box > #two > #t>p{
+        text-align: center;
+    }
+    #content > #box > #two >div{
+        line-height: 10px;
+    }
+    #content > #box > #two >div>h3{
+        width: 290px;
+    }
+    #box>h4{
+        
+        margin: auto;
+        height: 50px;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+    }
+    #t>.blue{
+        color: rgb(20, 104, 194);
+        font-weight: bolder;
+        font-size: small;
+        margin-top: 30px;
+        
+    }
+    #t>.blue:hover{
+       cursor: pointer;
+       color: cornflowerblue;
+      
+    }
+    #t>svg{
+        margin-top: 15px;
+    }
+    #box>#d{
+        color:rgb(105, 102, 102)
+    }
