@@ -142,6 +142,9 @@ hr+p>span:first-child{
     background-color: rgb(226, 14, 14);
     color:white;
 }
+button:hover{
+    cursor: pointer;
+}
 .prod button+button:hover{
     background-color: rgb(171, 24, 24);
 }
