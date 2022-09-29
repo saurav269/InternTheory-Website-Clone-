@@ -26,7 +26,18 @@ const myfun = () => {
     }else{
         arr.push(s1)
         localStorage.setItem("user",JSON.stringify(arr))
-        alert("Registration Successful!")
+        window.location.href = "login.html"
+        alert("Registration Successful!😊")
+        
     }
 
 }
+
+document.getElementById("facebook").addEventListener("click",function(){
+    newfunction()
+})
+
+function newfunction(){
+    window.location.href="https://www.facebook.com/login/"
+}
+
