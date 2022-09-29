@@ -1,5 +1,4 @@
 
-
 function details(n,ln,em,p){
 
     this.name = n;
