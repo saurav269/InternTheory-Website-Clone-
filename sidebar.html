@@ -67,55 +67,58 @@
             <span class="links_name"><b>Post Internship</b></span>
           </a>
         </li>
-        <li onclick="course()">
-          <a href="#">
+        <li>
+          <a href="#"  onclick="course()">
             <i class="fa-solid fa-mobile"></i>
             <span class="links_name"><b>Courses</b></span>
             <i id="ar1" class="fa-solid fa-angle-down"></i>
           </a>
 
-          <ul class="course">
-            <a href="#" id="opt1">
-              <li><b>Online Courses</b></li>
-              <li><b>Classroom Traning</b></li>
-            </a>
-          </ul>
+         
         </li>
+        <ul class="course">
+          <a href="#" id="opt1">
+            <li><b>Online Courses</b></li>
+            <li><b>Classroom Traning</b></li>
+          </a>
+        </ul>
         <li>
           <a href="#">
             <i class="fa-solid fa-phone"></i>
             <span class="links_name"><b>Contact Us</b></span>
           </a>
         </li>
-        <li>
+        <li class="register" onclick="register()">
           <a href="#">
             <i class="fa-solid fa-align-left"></i>
             <span class="links_name"><b>Register</b></span>
             <i id="ar2" class="fa-solid fa-angle-down"></i>
           </a>
-          <!-- <ul>
+       
+        </li>
+        <ul id="reg" class="how">
           <li class="opt"><b>Company</b></li>
           <li class="opt"><b>Student</b></li>
-         </ul> -->
-        </li>
-        <li>
+         </ul>
+        <li onclick="login()">
           <a href="#">
             <i class="fa-solid fa-book"></i>
             <span class="links_name"><b>Login</b></span>
             <i id="ar3" class="fa-solid fa-angle-down"></i>
           </a>
-          <!-- <ul>
-            <li class="opt"><b>Company</b></li>
-            <li class="opt"><b>Student</b></li>
-          </ul> -->
+         
         </li>
+        <ul id="log" class="how">
+          <li class="opt"><b>Company</b></li>
+          <li class="opt"><b>Student</b></li>
+        </ul>
       </ul>
     </div>
   </body>
 </html>
 <script src="./sidebar.js"></script>
 <script>
-  let num = 1;
+ 
   let side = document.querySelector(".sidebar");
 
   // let btn = document.querySelector("button");
@@ -129,18 +132,45 @@
     side.style.display = "none";
   });
 
-  // num1=1
+  let num = 1;
   const course = () => {
-    document.getElementById("opt1").style.display = "none";
-    console.log("working");
+    
+    // console.log("working");
     if (num % 2 != 0) {
       num++;
-      course.style.display = "block";
+      document.getElementById("opt1").style.display = "block";
       console.log("working ", num);
     } else {
-      course.style.display = "none";
+      document.getElementById("opt1").style.display = "none";
       num++;
       console.log("working", num);
     }
   };
+
+ let num1=1
+  const register=()=>{
+    if (num1 % 2 != 0) {
+      num1++;
+      document.getElementById("reg").style.display = "block";
+      console.log("working ", num1);
+    } else {
+      document.getElementById("reg").style.display = "none";
+      num1++;
+      console.log("working", num1);
+    }
+  }
+  let num2=1;
+  const login=()=>{
+    if (num2 % 2 != 0) {
+      num2++;
+      document.getElementById("log").style.display = "block";
+      console.log("working ", num2);
+    } else {
+      document.getElementById("log").style.display = "none";
+      num2++;
+      console.log("working", num2);
+    
+  }
+}
+
 </script>
