@@ -25,7 +25,9 @@ const myfun = () => {
         alert("Some Fields are missing")
     }else{
         arr.push(s1)
+
         localStorage.setItem("user",JSON.stringify(arr))
+        console.log(arr)
         window.location.href = "login.html"
         alert("Registration Successful!😊")
         
