@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/b63073adcc.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/sidebar.css" />
+  </head>
+  <link rel="stylesheet" href="/styles/sidebar.css" />
+  <body>
+    <div id="navbar">
+      <div id="nav_log">
+        <i class="fa-solid fa-bars nav_ham" id="slider"></i>
+        <img
+          id="navimg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8RE3l71VRCm23ci33-wBI5lLx7hwhghecXza9lao&s"
+          alt=""
+        />
+      </div>
+      <div id="signin">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <a href="">
+          <h4 id="s1">SignIn</h4>
+        </a>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="fa-solid fa-bars close" id="close"></i>
+          <img
+            id="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8RE3l71VRCm23ci33-wBI5lLx7hwhghecXza9lao&s"
+            alt=""
+          />
+          <div class="logo_name"></div>
+        </div>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-house"></i>
+            <span class="links_name"><b>Home</b></span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-list"></i>
+            <span class="links_name"><b>Internships</b></span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="links_name"><b>Jobs</b></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-list-check"></i>
+            <span class="links_name"><b>Post Internship</b></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="course()">
+            <i class="fa-solid fa-mobile"></i>
+            <span class="links_name"><b>Courses</b></span>
+            <i id="ar1" class="fa-solid fa-angle-down"></i>
+          </a>
+        </li>
+        <ul class="course">
+          <a href="#" id="opt1">
+            <li><b>Online Courses</b></li>
+            <li><b>Classroom Traning</b></li>
+          </a>
+        </ul>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-phone"></i>
+            <span class="links_name"><b>Contact Us</b></span>
+          </a>
+        </li>
+        <li class="register" onclick="register()">
+          <a href="#">
+            <i class="fa-solid fa-align-left"></i>
+            <span class="links_name"><b>Register</b></span>
+            <i id="ar2" class="fa-solid fa-angle-down"></i>
+          </a>
+        </li>
+        <ul id="reg" class="how">
+          <li class="opt"><b>Company</b></li>
+          <li class="opt"><b>Student</b></li>
+        </ul>
+        <li onclick="login()">
+          <a href="#">
+            <i class="fa-solid fa-book"></i>
+            <span class="links_name"><b>Login</b></span>
+            <i id="ar3" class="fa-solid fa-angle-down"></i>
+          </a>
+        </li>
+        <ul id="log" class="how">
+          <li class="opt"><b>Company</b></li>
+          <li class="opt"><b>Student</b></li>
+        </ul>
+      </ul>
+    </div>
+  </body>
+</html>
+<script>
+  let side = document.querySelector(".sidebar");
+
+  // let btn = document.querySelector("button");
+  let slider = document.getElementById("slider");
+  let closeBtn = document.getElementById("close");
+
+  slider.addEventListener("click", function () {
+    side.style.display = "block";
+  });
+  closeBtn.addEventListener("click", function () {
+    side.style.display = "none";
+  });
+
+  let num = 1;
+  const course = () => {
+    // console.log("working");
+    if (num % 2 != 0) {
+      num++;
+      document.getElementById("opt1").style.display = "block";
+      console.log("working ", num);
+    } else {
+      document.getElementById("opt1").style.display = "none";
+      num++;
+      console.log("working", num);
+    }
+  };
+
+  let num1 = 1;
+  const register = () => {
+    if (num1 % 2 != 0) {
+      num1++;
+      document.getElementById("reg").style.display = "block";
+      console.log("working ", num1);
+    } else {
+      document.getElementById("reg").style.display = "none";
+      num1++;
+      console.log("working", num1);
+    }
+  };
+  let num2 = 1;
+  const login = () => {
+    if (num2 % 2 != 0) {
+      num2++;
+      document.getElementById("log").style.display = "block";
+      console.log("working ", num2);
+    } else {
+      document.getElementById("log").style.display = "none";
+      num2++;
+      console.log("working", num2);
+    }
+  };
+</script>
