@@ -1,4 +1,10 @@
 
+/* 
+*{
+    margin: 0px;
+    padding: 0px;
+} */
+
 @media all and (min-width:950px) and (max-width:1400px){
 
     .top-bottom{
@@ -115,7 +121,7 @@ hr+p>span:first-child{
     cursor: pointer;
     color:rgb(231, 155, 14);
     font-weight: bolder;
-
+    
     
 }
 
@@ -131,46 +137,60 @@ hr+p>span:first-child{
     padding-right: 10px;
     gap: 5px;
 }
-.btn>button:first-child{
- margin-left: 10%;
-    margin-right: -2%; 
-    
-    border-radius: 4px;
-    border:none;
-    padding:4px 8px ; 
-    color:rgb(32, 126, 176);
+.btn>a{
+    height: fit-content;
+    border-radius: 10px;
     background-color: white;
-    font-size: 12px;
-    font-weight: bold;
-
-}
-.btn>button:first-child:hover{
-    background-color: rgb(232, 237, 237);
-}
-
-
-.prod button+button{
-    padding:6px 8px;
-    
-    border:none; 
-    border-radius: 4px;
-    background-color: rgb(226, 14, 14);
-    color:white;
-    
-}
-button:hover{
     cursor: pointer;
 }
-.btn>button+button:hover{
-    background-color: rgb(171, 24, 24);
+.btn a:nth-child(1)>button{
+    color: rgb(25, 51, 163);
+    background-color: white;
+    font-weight: bolder;
 }
-.prod p{
-    color:black;
+.btn a:nth-child(1)>button:hover{
+    background-color: rgb(203, 225, 238);
 }
-
+.btn a>button{
+    height: fit-content;
+    font-weight: bolder;
+    font-size: 12px;
+    
+    padding: 6px 6px;
+    border:none;
+    border-radius: 4px;
+    background-color: red;
+    cursor: pointer;
+    color:white;
+    
+    font-weight: bolder;
+    
 }
-
-
+.btn a>button:hover{
+    background-color:rgb(184, 13, 13);
+}
+#couponcourse{
+    width: 100vw;
+    padding:14px 0px;
+    color:white;
+    
+     margin-top: 30px;
+    position: relative;
+    top:90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(209, 24, 24);
+} 
+#couponcourse>p{
+    width: 80%;
+    align-items: center;
+    color:white;
+    line-height: 20px;
+    font-weight: bolder;
+    margin: auto;
+}
+}
 @media all and (min-width:600px) and (max-width:949px){
     
         .top-bottom{
@@ -304,44 +324,55 @@ button:hover{
         padding-right: 10px;
         gap: 5px;
     }
-    .btn>button:first-child{
-     margin-left: 10%;
-        margin-right: -2%; 
-        
-        border-radius: 4px;
-        border:none;
-        padding:0px 8px ; 
-        color:rgb(32, 126, 176);
+    .btn>a{
+        height: fit-content;
+        border-radius: 10px;
         background-color: white;
-        font-size: 11px;
-        font-weight: bold;
-        height: 4vh;
-    }
-    .btn>button:first-child:hover{
-        background-color: rgb(232, 237, 237);
-    }
-    
-    
-    .prod button+button{
-        padding:0px 8px;
-        height: 4vh;
-        border:none; 
-        border-radius: 4px;
-        background-color: rgb(226, 14, 14);
-        color:white;
-        font-size: 12px;
-    }
-    button:hover{
         cursor: pointer;
     }
-    .btn>button+button:hover{
-        background-color: rgb(171, 24, 24);
+    a:nth-child(1)>button{
+        color: rgb(25, 51, 163);
+        background-color: white;
+        font-weight: bolder;
     }
-    
-    .prod p{
-        color:black;
+    a:nth-child(1)>button:hover{
+        background-color: rgb(203, 225, 238);
     }
-    
+    a>button{
+        height: fit-content;
+        padding:6px 4px;
+        border:none;
+        border-radius: 4px;
+        background-color: red;
+        cursor: pointer;
+        color:white;
+        font-weight: bolder;
+        
+    }
+    a>button:hover{
+        background-color:rgb(184, 13, 13);
+    }
+    #couponcourse{
+        width: 100vw;
+        padding:14px 0px;
+        color:white;
+        
+         margin-top: 30px;
+        position: relative;
+        top:90%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        background-color: rgb(209, 24, 24);
+    } 
+    #couponcourse>p{
+        width: 80%;
+        align-items: center;
+        color:white;
+        line-height: 20px;
+        font-weight: bolder;
+        margin: auto;
+    }
     }
     
     @media all and (min-width:10px) and (max-width:599px){
@@ -479,45 +510,55 @@ button:hover{
             justify-content: right;
             padding-right: 10px;
             gap: 5px;
-            
         }
-        .btn>button:first-child{
-         margin-left: 10%;
-            margin-right: -2%; 
-            
-            border-radius: 4px;
-            border:none;
-            padding:0px 8px ; 
-            color:rgb(32, 126, 176);
+        .btn>a{
+            height: fit-content;
+            border-radius: 10px;
             background-color: white;
-            font-size: 11px;
-            font-weight: bold;
-            height: 4vh;
-        }
-        .btn>button:first-child:hover{
-            background-color: rgb(232, 237, 237);
-        }
-        
-        
-        .prod button+button{
-            padding:0px 8px;
-            height: 4vh;
-            border:none; 
-            border-radius: 4px;
-            background-color: rgb(226, 14, 14);
-            color:white;
-            font-size: 12px;
-        }
-        button:hover{
             cursor: pointer;
         }
-        .btn>button+button:hover{
-            background-color: rgb(171, 24, 24);
+        a:nth-child(1)>button{
+            color: rgb(25, 51, 163);
+            background-color: white;
+            font-weight: bolder;
         }
-        
-        .prod p{
-            color:black;
+        a:nth-child(1)>button:hover{
+            background-color: rgb(203, 225, 238);
         }
-        
+        a>button{
+            height: fit-content;
+            padding: 6px 4px;
+            border:none;
+            border-radius: 4px;
+            background-color: red;
+            cursor: pointer;
+            color:white;
+            font-weight: bolder;
+            font-size: 12   px;
+            
+        }  
+        a>button:hover{
+            background-color:rgb(184, 13, 13);
+        }
+        #couponcourse{
+            width: 100vw;
+            padding:14px 0px;
+            
+            margin-top: 30px;
+            position: relative;
+            top:90%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            text-align: center;
+            background-color: rgb(230, 16, 16);
+        } 
+        #couponcourse>p{
+            width: 80%;
+            align-items: center;
+            color:white;
+            line-height: 20px;
+            font-weight: bolder;
+            margin: auto;
+        }
         }
     
