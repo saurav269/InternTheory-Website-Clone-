@@ -1,9 +1,3 @@
-// Import the Navbar
-import { Navbar, sidebar } from "../components/navbar.js";
-let navbar_me = document.getElementById("nav_bar");
-navbar_me.innerHTML = Navbar();
-let sidebar_nav = document.getElementById("sidebar");
-sidebar_nav.innerHTML = sidebar();
 // Import EMI details
 import { EMI_func } from "../components/EMI.js";
 // Import Footer
@@ -44,7 +38,8 @@ let footer_box = document.getElementById("footer_container");
 footer_box.innerHTML = footer();
 
 // sidebar functionality
-let side = document.querySelector("#sidebar");
+
+let side = document.querySelector(".sidebar");
 
 // let btn = document.querySelector("button");
 let slider = document.getElementById("slider");

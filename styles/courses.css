@@ -8,7 +8,7 @@
 /* .top-bottom{
     margin-top: 200px;
 } */
-@media all and (min-width:950px) and (max-width:1370px){
+@media all and (min-width:950px) {
 
     .top-bottom{
     width: 100%;
