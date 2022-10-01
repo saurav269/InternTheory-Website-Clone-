@@ -111,12 +111,14 @@
   h4 {
     font-size: 12px;
   }
-  
+  #opt1>li{
+    padding: 6px 0px;
+  }
   #opt1 {
     display: none;
     /* width: 100%; */
     margin: auto;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 10px;
     color: black;
   }
@@ -133,6 +135,9 @@
     margin: auto;
     margin-left: 40px;
     margin-top: 10px;
+  }
+  .how>li{
+    padding: 6px 0px;
   }
   .how>li:hover{
     width: 100%;
