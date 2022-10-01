@@ -1,7 +1,9 @@
-// Import EMI details
+
+
+  // Import EMI details
 import { EMI_func } from "../components/EMI.js";
 // Import Footer
-import { footer } from "../components/footer.js";
+// import { footer } from "../components/footer.js";
 
 let boxes = document.querySelectorAll(".emi");
 
@@ -34,7 +36,27 @@ box_cart.forEach((box) => {
 });
 
 // append footer
-let footer_box = document.getElementById("footer_container");
-footer_box.innerHTML = footer();
+// let footer_box = document.getElementById("footer_container");
+// footer_box.innerHTML = footer();
 
-// sidebar functionality
+// console.log("hello")
+
+document.getElementById("navimg").addEventListener("click",function(){
+
+    myfunn()
+});
+
+function myfunn(){
+    window.location.href="main.html"
+}
+
+
+// document.getElementById("s1").addEventListener("click",function(){
+//     myfun()
+// })
+// function myfun(){
+// // console.log("hello")
+//     window.location.href="signup.html"
+// }
+
+

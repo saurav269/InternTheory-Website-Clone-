@@ -42,11 +42,28 @@ const detail = (obj) => {
     })
     if(count >= 1 && temp < arr.length){
         
-        window.location.href = "home.html"
-        alert("Login successful😊")
+        window.location.href = "main.html"
+        alert("Login Successful😊")
     }else{
-        alert("Login unsuccessful!")
+        alert("Login Unsuccessful!🥺")
     }
 
+}
+
+document.getElementById("navimg").addEventListener("click",function(){
+
+    myfunn()
+});
+
+function myfunn(){
+    window.location.href="main.html"
+}
+
+document.getElementById("create").addEventListener("click",function(){
+    myown()
+});
+
+function myown(){
+    window.location.href="signup.html"
 }
 

@@ -83,6 +83,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 3px;
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
   }
   #signin {
     display: flex;

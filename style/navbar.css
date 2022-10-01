@@ -13,6 +13,8 @@ body{
     min-height:100vh ;
     width: 100%;
     /* overflow: hidden ; */
+    margin: 0px;
+    padding: 0px;
     
    
 }
@@ -102,8 +104,12 @@ a{
     display: flex;
     justify-content: space-between;
     margin-top: 3px;
-    height: 50px;
+    height: 60px;
     background-color: white;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
 }
 #signin{
     display: flex;
@@ -133,3 +139,13 @@ a{
 h4{
     font-size: 12px;
 }
+
+  #opt1 {
+    display: none;
+    /* width: 100%; */
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+  }
+  

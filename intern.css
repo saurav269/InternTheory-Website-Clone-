@@ -140,7 +140,7 @@ h4{
 }
 #img > img {
   /* border: 1px solid pink; */
-  width: 85%;
+  width: 95%;
   margin-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -151,7 +151,7 @@ h4{
 #content {
   margin-top: 20px;
   margin-right: 20px;
-  width: 200%;
+  width: 300%;
   height: auto;
   /* border: 1px solid green; */
   align-items: flex-start;

@@ -1,14 +1,5 @@
-/* 
- * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  } */
 
-/* .top-bottom{
-    margin-top: 200px;
-} */
-@media all and (min-width:950px) {
+  @media all and (min-width:950px) {
 
     .top-bottom{
     width: 100%;
@@ -565,4 +556,3 @@ hr+p>span:first-child{
             margin: auto;
         }
         }
-    

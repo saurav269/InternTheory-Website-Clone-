@@ -43,3 +43,12 @@ function newfunction(){
     window.location.href="https://www.facebook.com/login/"
 }
 
+document.getElementById("navimg").addEventListener("click",function(){
+
+    myfunn()
+});
+
+function myfunn(){
+    window.location.href="main.html"
+}
+
