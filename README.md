@@ -5,3 +5,30 @@ Description:- An online platform where anyone can complete their internship and 
 <br />
 <br />
 Features :
+<ul>
+<li> Responsive </li>
+<li> Sign in/Login pages </li>
+<li> Job page </li>
+<li>Intership Page</li>
+<li> Courses Page </li>
+  <li> Responsive Navbar Page </li>
+</ul>
+</br>
+
+TECH-STACK:
+<ul>
+<li> HTML </li>
+<li> CSS </li>
+<li> JavaScript </li>
+</ul>
+
+
+A group project built over a period of 5 days.
+
+Team members :-
+<ul>
+  <li> <a href="https://github.com/saurav269"  >  Saurav Mallik (Team-lead). </a> </li>
+  <li>  <a href="https://github.com/9142Abhi">  Abhi Singh. </a>   </li>
+  <li> <a href="https://github.com/sourav4125" > Sourav Misra.  </a> </li>
+  <li>  <a href="https://github.com/paulASEEM">   Aseem Paul. </a></li>
+  </ul>
