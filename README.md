@@ -4,9 +4,9 @@ Description:- An online platform where anyone can complete their internship and 
 
 Features :
 
-Responsive
-Sign in/Login pages
-Internship Page
-Job Page
-Responsive Navbar
-Online Courses Page
+-Responsive
+-Sign in/Login pages
+-Internship Page
+-Job Page
+-Responsive Navbar
+-Online Courses Page
