@@ -32,3 +32,16 @@ Team members :-
   <li> <a href="https://github.com/sourav4125" > Sourav Misra.  </a> </li>
   <li>  <a href="https://github.com/paulASEEM">   Aseem Paul. </a></li>
   </ul>
+
+------
+  <h3>Home Page</h3>
+   <img src="https://user-images.githubusercontent.com/110054999/214121336-3fa6d411-a2b7-48e1-a86f-7fb7550f4bc0.png"/>
+   
+   <h3>✨Login/SignUp Page</h3>
+<img src="https://user-images.githubusercontent.com/110054999/214121796-a57426de-6cf5-4219-b980-d3c551eda644.png"/>
+
+<h3>✨Job Page</h3>
+<img src="https://user-images.githubusercontent.com/110054999/214122033-2a67fed6-b0f5-4357-a1ec-1a0dcf395fc6.png"/>
+
+<h3>✨Courses page</h3>
+<img src="https://user-images.githubusercontent.com/110054999/214122259-bc360ae2-9374-4cd9-8517-affece7abcfd.png" alt="log"/>
